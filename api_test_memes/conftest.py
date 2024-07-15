@@ -2,32 +2,35 @@ import pytest
 import requests
 import allure
 from api_test_memes.endpoints.authorize_post import PostPosts
-from api_test_memes.endpoints.get_meme import Get_id
-from api_test_memes.endpoints.delet_user import DelUser
+from api_test_memes.endpoints.get_all_memes import GetAllMemes
+from api_test_memes.tests.data.payloads import name
+
+
+url = 'http://167.172.172.115:52355'
 
 
 @allure.feature('Fixture')
 @pytest.fixture()
-def new_obj():
+def create_new_token():
     payload = {
-        "name": "NarateL"
+        "name": "Tumanio"
     }
     response = requests.post(
-        'https://api.restful-api.dev/objects',
+        url,
         json=payload
     )
-    new_obj_id = response.json()['id']
-    print(f'Создание объекта {new_obj_id}')
-    yield new_obj_id
-    requests.delete(f'https://api.restful-api.dev/objects/{new_obj_id}')
-    print(f'Удаление объекта {new_obj_id}')
+    new_tokens = response.json()['token']
+    print(f'Создание объекта {new_tokens}')
+    yield new_tokens
+    # requests.delete(f'https://api.restful-api.dev/objects/{new_obj_id}')
+    # print(f'Удаление объекта {new_obj_id}')
 
 
 @pytest.fixture()
-def create_user_endpoint():
-    return PostPosts()
+def create_token():
+    return PostPosts().create_token(name)
 
 
 @pytest.fixture()
-def get_idi():
-    return Get_id
+def get_memes_all():
+    return GetAllMemes()

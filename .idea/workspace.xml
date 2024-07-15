@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49e691b1-ec9b-496d-9267-c882b0128ce6" name="Changes" comment="" />
+    <list default="true" id="49e691b1-ec9b-496d-9267-c882b0128ce6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api_test_memes/endpoints/get_all_memes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test_memes/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_test_memes/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test_memes/endpoints/authorize_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_test_memes/endpoints/authorize_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test_memes/endpoints/base_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_test_memes/endpoints/base_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test_memes/endpoints/get_meme.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test_memes/tests/data/payloads.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_test_memes/tests/data/payloads.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_test_memes/tests/test_memes.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_test_memes/tests/test_memes.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2j2nxsSlo1S9OQuCXd473spWW5r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,10 +40,109 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_memes.test_create_user.executor": "Run",
+    "Python tests.Python tests for test_memes.test_delete_user.executor": "Run",
+    "Python tests.Python tests for test_memes.test_get_all_memes.executor": "Run",
+    "Python tests.Python tests for test_memes.test_get_memes.executor": "Run",
+    "Python tests.Python tests for test_memes.test_get_token.executor": "Run",
+    "Python.tt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_memes.test_get_memes">
+    <configuration name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tumanov_api_memes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_test_memes/endpoints" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_test_memes/endpoints/tt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_memes.test_create_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="tumanov_api_memes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_test_memes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_memes.test_create_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_memes.test_get_all_memes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="tumanov_api_memes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_test_memes/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_memes.test_get_all_memes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_memes.test_get_memes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="tumanov_api_memes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_test_memes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_memes.test_get_memes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_memes.test_get_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="tumanov_api_memes" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_test_memes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_memes.test_get_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_memes.test_get_memes" />
+        <item itemvalue="Python.tt" />
+        <item itemvalue="Python tests.Python tests for test_memes.test_create_user" />
+        <item itemvalue="Python tests.Python tests for test_memes.test_get_all_memes" />
+        <item itemvalue="Python tests.Python tests for test_memes.test_get_token" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

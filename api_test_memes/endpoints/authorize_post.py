@@ -1,4 +1,4 @@
-# import pytest
+import pytest
 import requests
 import allure
 from api_test_memes.endpoints.base_api import BaseApi
@@ -6,7 +6,7 @@ from api_test_memes.endpoints.base_api import BaseApi
 
 class PostPosts(BaseApi):
         @allure.step('create token')
-        def create_user(self, payload, headers=None):
+        def create_token(self, payload, headers=None):
             headers = headers if headers else self.headers
             self.response = requests.post(
                 f'{self.url_autiriz}',
