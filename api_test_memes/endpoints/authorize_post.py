@@ -1,10 +1,9 @@
-import pytest
 import requests
 import allure
 from api_test_memes.endpoints.base_api import BaseApi
 
 
-class PostPosts(BaseApi):
+class PostAuthorize(BaseApi):
         @allure.step('create token')
         def create_token(self, payload, headers=None):
             headers = headers if headers else self.headers
